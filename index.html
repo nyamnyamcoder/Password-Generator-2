@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <h1>Generate a <br><span id="h1-green">random password</span></h1>
+        <h4>Never use an insecure password again.</h4>
+
+        <div>
+            <button id="triggerpassword" onclick="triggerpassword()">Generate passwords</button>
+            <button id="passwordlen" onclick="passwordlen()">Choose a password length</button>
+        </div>
+
+        <hr>
+
+        <div id="passwords">
+            <div class="passwordbox">
+                <p id="password1"></p>
+                <button id="copy-password1">
+                    <img src="image/copy-icon.png" alt="copy-icon"/>
+                </button>
+            </div>
+            <p id="password1copied"></p>
+
+            <div class="passwordbox">
+                <p id="password2"></p>
+                <button id="copy-password2"> 
+                    <img src="image/copy-icon.png" alt="copy-icon"/>
+                </button>
+            </div>
+            <p id="password2copied"></p>
+        </div>
+
+
+    </body>
+</html>
